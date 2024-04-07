@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML 문서의 제목입니다.</title>
+    <link href="https://fonts.googleapis.com/css?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/css/test.css">
+</head>
+<body>
+  <div class="main">
+    
+      <span class="title">jisoo’s story</span>
+      <div class="btn_area">
+          <button type="button" class="buttons" id="join_btn" onclick="goToSignupPage();">회원가입</button>
+          <button type="button" class="buttons" id="login_btn">로그인</button>
+      </div>
+      <div class="list_area">
+        <ul>
+          <li>안녕하세여</li>
+          <li>테스트입니다.</li>
+        </ul>
+      </div>
+    
+  </div>
+</body>
+
+<script>
+  function goToSignupPage() {
+    window.location.href = '/join';
+  }
+</script>
+
+</html>
